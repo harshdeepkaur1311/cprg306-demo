@@ -1,15 +1,14 @@
 
 import Link from "next/link";
+import Image from "next/image";
 
-export default function page(){
-  return(
-    <main>
-      <h1> Hello World!!</h1>
-      <ul>
-        <li>
-          <Link href = "week-2">Week 2</Link>
-        </li>
-      </ul>
-      </main>
-  )
+import HomePage from "./pages/homepage";
+
+
+export default function Page() {
+    return(
+        <HomePage/>
+        //<Cart/>
+    )
 }
+
